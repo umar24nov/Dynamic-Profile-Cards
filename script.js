@@ -63,6 +63,7 @@ addFriend.addEventListener('click', () => {
 removeFriend.addEventListener('click', () => {
     if(friends.length > 0){
         friends.pop();
+        currIndex--;
 
         const lastFriend = friends[friends.length -1];
 
